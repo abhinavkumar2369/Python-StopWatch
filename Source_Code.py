@@ -27,7 +27,7 @@ class Stopwatch:
         self.running = False
 
         self.label = ttk.Label(self.master, text="00:00:00", font=("Arial", 30))
-        self.label.pack(pady=20)
+        self.label.pack(pady=40)
 
         self.start_button = ttk.Button(self.master, text="Start", command=self.start)
         self.start_button.pack(side=tk.LEFT, padx=40)
